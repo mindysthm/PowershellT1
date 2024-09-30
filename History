@@ -1,0 +1,28 @@
+Id CommandLine
+  -- -----------
+   1 New-File test
+   2 New-File
+   3 New-Item
+   4 New-File -Path "C:\users\Admin" dossiertest
+   5 New-Item -Path "C:\users\Admin\test.txt" -ItemType File
+   6 New-Folder -Path "C:\users\Admin\testdossier" -ItemType Folder
+   7 New-Item -Path "C:\users\Admin\" -Name "powershell" -ItemType Directory
+   8 Set-Location "C:\users\Admin\" "powershell"
+   9 Set-Location "C:\users\Admin\powershell"
+  10 New-Item -Path "C:\users\Admin\powershell\nana.txt" -ItemType File
+  11 Copy-Item "C:\users\Admin\powershell\nana.txt" > "C:\users\Admin\"
+  12 Copy-Item "C:\users\Admin\powershell\nana.txt" -Destination "C:\users\Admin\"
+  13 Remove-File "C:\users\Admin\nana.txt"
+  14 Remove-Fil "C:\users\Admin\nana.txt"
+  15 Remove-Item "C:\users\Admin\nana.txt"
+  16 Set-Location "C:\users\Admin\powershell"
+  17 Cat "C:\users\Admin\powershell\nana.txt"
+  18 Get-Content "C:\users\Admin\powershell\nana.txt"
+  19 Set-Location "C:\users\Admin\powershell\nana.txt"
+  20 Get-Content
+  21 Get-Content -Path .\nana.txt
+  22 New-Alias -Name rem -Value Remove-Item
+  23 rem
+  24 rem nana.txt
+  25 Help Set-Location
+  26 Get-Help Remove-Item
