@@ -1,9 +1,18 @@
-Markdown,Powershell
-cp,Copy-Item "C:\users\Admin\powershell\nana.txt" -Destination "C:\users\Admin\"
-rm,Remove-Item "C:\users\Admin\nana.txt"
-cd,Set-Location "C:\users\Admin\powershell"
-mkdir,New-Item -Path "C:\users\Admin\" -Name "powershell" -ItemType Directory
-man,Get-Help Remove-Item
-history,History
-alias,New-Alias -Name rem -Value Remove-Item
-cat,Get-Content "C:\users\Admin\powershell\nana.txt"
+**Voici les commandes markdwon et leurs équivalent en powershell**
+
+
+_cp_ : Copy-Item "C:\users\Admin\powershell\nana.txt" -Destination "C:\users\Admin\"
+
+_rm_ : Remove-Item "C:\users\Admin\nana.txt"
+
+_cd_ : Set-Location "C:\users\Admin\powershell"
+
+_mkdir_ : New-Item -Path "C:\users\Admin\" -Name "powershell" -ItemType Directory
+
+_man_ : Get-Help Remove-Item
+
+_history_ : History
+
+_alias_ : New-Alias -Name rem -Value Remove-Item
+
+_cat_ : Get-Content "C:\users\Admin\powershell\nana.txt"
