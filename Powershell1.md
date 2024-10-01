@@ -1,4 +1,4 @@
-**Voici les commandes markdwon et leurs équivalent en powershell**
+**Voici les commandes markdwon et leurs équivalences en powershell**
 
 
 _cp_ : Copy-Item "C:\users\Admin\powershell\nana.txt" -Destination "C:\users\Admin\"
